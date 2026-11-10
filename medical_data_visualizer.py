@@ -14,7 +14,6 @@ df['gluc'] = (df['gluc'] > 1).astype(int)
 
 
 def draw_cat_plot():
-    # 5. Create a DataFrame for the cat plot using pd.melt
     df_cat = pd.melt(
         df,
         id_vars=['cardio'],
